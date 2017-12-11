@@ -1,0 +1,214 @@
+
+
+@font-face {
+	font-family: 'Myriad-Pro';
+	src: url('/fonts/Myriad-Pro.eot'); /* IE */  
+	src: local('Myriad-Pro'), url('/fonts/Myriad-Pro.ttf') format('truetype'); /* non-IE */
+	/*src: local('Myriad-Pro'), url('/fonts/Myriad-Pro.woff') format('woff'); /* Modern Browsers */
+}
+
+
+
+
+body { font-family: Myriad-Pro, sans-serif; }
+
+
+*{margin:0px;padding:0px;}
+img{border:none;outline:none;}
+ul{list-style-type:none;margin:0px;padding:0px;}
+input{font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+.clear{clear:both;}
+.f-left{float:left !important;}
+.f-right{float:right !important;}
+.no-bg{background:none !important;}
+a{text-decoration:none;cursor:pointer;}
+
+.container{max-width:1200px;margin:0px auto;}
+.hdr{width:100%;float:left;background:#FFF;background-size:100% 100%;padding:24px 0; border-top:5px solid #f4f4f4;}
+.hdr .logo{ float:left; width:70%}
+.hdr a img{ max-width:567px; width:100%}
+.hdr .call{ float:right;}
+.hdr .call p{ font-family: open sans;    font-size: 17px;    text-transform: uppercase;}
+.hdr .call h3	{ font-size:32px;  font-family: open sans;}
+.hdr .call img{ position:absolute; margin-left:-58px}
+
+
+.banner{width:100%;float:left;background:url("../images/banner-bg3.png") repeat scroll center center rgba(0, 0, 0, 0); height:621px;}
+.banner .left{ width:70%; float:left;padding: 65px 0;}
+.banner .left img{ position:absolute; max-width:485px; float:right; left:37%; top:23%; width:100%; height: auto;}
+.banner .left h1{ color:#FFF; font-size:36px;font-weight: normal;font-family: nexa;}
+.banner .left p{ color:#FFF; font-size:20px;line-height: 33px;    padding-top: 28px; color: #bebebe; font-family: Raleway;} 
+.banner .left span p{color:#FFF; font-size:15px;line-height: 18px;    padding-top: 40px;}
+.banner .left span em{color:#cde0ec; font-size:17px; font-style:italic;}
+.banner .left h6{ color:#FFF; font-size:17px;line-height: 28px;    padding-top: 76px; font-weight:normal} 
+.banner .right{ width:25%; float:right;padding: 17px 17px;}
+.banner .right img{ max-width:304px; position: absolute;}
+
+.sec1{width:100%;background: url(../images/sec1-bg.png); float: left;}
+.sec1 .left{ width:71.8%; float:left;padding: 65px 0px 19px 21.4px; background:#FFF;}
+.sec1 .left .row1{ width:44%; float:left;}
+.sec1 .left h2{ font-size:26px; color:#000;font-family: Roboto Slab;}
+.sec1 .left ul{}
+.sec1 .left li{ background: url(../images/right.png) no-repeat left; font-size:15px;padding: 10px 0px 10px 30px;font-family: raleway;}
+.sec1 .left .row2 {    float: left;    width: 56%;}
+.sec1 .right{ width:25%; float:right;padding: 160px 17px 1px 0; background:#FFF;}
+.sec1 .right .COL1{ background:#479f00;box-sizing: border-box; padding: 7px 15px 10px;width: 100%;}
+.sec1 .right .COL1 h3{ color:#FFF; font-size:23px;text-align: center; line-height: 35px;font-family: Roboto Slab;font-weight: normal;}
+.sec1 .right .COL2{ background:#4fb100;box-sizing: border-box; padding: 7px 15px 10px;width: 100%;}
+.sec1 .right .COL2 .inpt{background: #FFF;border: 1px solid #3f8e00; box-sizing: border-box;float: left;width: 100%;margin: 7px 0;}
+.sec1 .right .COL2 .inpt .input1{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0);border: medium none;color: #000000;display: inline-block; font-size: 14px;width: 100%;padding: 7px 10px;box-sizing: border-box;font-family: raleway;}
+.banner .container .right-sec .COL2 .inpt textarea{height:auto !important;}
+.sec1 .right .COL2 .submit{margin: 0 auto;text-align: center;width: 100%;}
+.sec1 .right .COL2 .submit .button{background: url(../images/submit.png) no-repeat scroll left top / 101% auto rgba(0, 0, 0, 0);
+border: medium none !important;box-sizing: border-box;cursor: pointer;display: inline-block;margin: 15px 0;
+padding: 3% 17% 4% 3%;text-align: center;width: 100%;height: 59px;max-width: 264px;}
+.sec1 .right .COL2 .submit .button:hover{background: url(../images/submi-hover.png) no-repeat scroll left top / 101% auto rgba(0, 0, 0, 0);border: medium none !important;box-sizing: border-box;cursor: pointer;display: inline-block;margin: 15px 0;
+padding: 3% 17% 4% 3%;text-align: center;width: 100%;height: 59px;max-width: 264px;}
+.left > img {    height: 76px;    max-width: 925px;    position: relative;    width: 105%;    z-index: 4; margin: 0 -36px;}
+
+.sec2{width:100%;background: url(../images/sec1-bg.png); float: left;}
+.sec2 .left{width:71.8%; float:left;padding: 0px 0px 20px 21.4px; background:#FFF;}
+.sec2 .right{ width:25%; float:right;padding: 0px 17px 228px 0; background:#FFF;}
+.sec2 .left h4{ font-size:26px; color:#000; font-family: Roboto Slab;}
+.company1 {    padding: 18px 0 0 0;}
+.company1 > img {width: 100%; max-width:847px;}
+.company2 {    float: left;    width: 53%; padding: 18px 0 0 0;}
+.company2 > img {width: 100%;max-width:435px}
+.company3 {    float: right;    left: 41%;    position: absolute;    width: 29%; padding: 18px 0 0 0;}
+.company3 > img {width: 100%; max-width:387px}
+.company4 {    float: left;    width: 51%; padding: 18px 0 0 0;}
+.company4 > img {width: 100%;max-width:435px}
+.form {    padding:0;}
+.form-side{ position:absolute;   margin: -88px 269px;}
+
+
+.policy{ background:#f4f4f4; margin: 20px 0;    padding: 10px 0 1px;}
+.policy h5{ color:#000; font-size:30px; text-align:center; font-family: Roboto Slab; font-weight:normal} 
+.policy .content{ background:#FFF;  margin: 10px auto;    padding: 10px;    width: 87%;}
+.policy .content p{ color:#000; font-size:14px; line-height: 21px;padding: 10px 0;font-family: raleway;}
+.policy .content a{ color:#fb2442; font-size:14px;font-family: raleway;}
+.policy .content a:hover{ text-decoration:underline;} 
+
+.call1 {    padding:0 0px 0 65px;}
+.call1 p{ font-family: open sans;    font-size: 17px;    text-transform: uppercase;background:rgba(0, 0, 0, 0) url("../images/e-border.png") no-repeat scroll 125px 18px;}
+
+.call1 h3	{ font-size:32px;  font-family: open sans;}
+.call1 img {    margin-left: -58px;   position: absolute;}
+
+.testi{ background:#f8f8f8; float:left; width:100%; border-top:1px solid #dadada;}
+.testi h1{ font-size:26px;padding: 15px 0 0px; font-family: Roboto Slab;}
+.testi .line1{ width:49%; float: left; border-right: 1px solid #e3e3e3;}
+.testi .line1 p{ font-size:15px;line-height: 23px; padding:15px;    background: url("../images/border.png") no-repeat scroll left 15px bottom -21px rgba(0, 0, 0, 0); width:91%;font-family: raleway;}
+.testi .line1 span.lft{ background:url(../images/testi.png) no-repeat;  float: left;    height: 10px;    margin-top: 15px;    width: 22px;}
+.testi .line1 span.rght{ background:url(../images/testi2.png) no-repeat;  float: right;    height: 10px;    margin-top: -30px;    width: 42px;}
+.test-img{margin: 0 auto; padding: 4px; width: 77%}
+.test-img h1{ font-size:18px; color:#5a9e3b;  float: right; width: 80%;line-height: 26px; font-weight: normal;font-family: raleway;}
+.test-img span{ font-size:18px; color:#f40408}
+.testi .line2{ width:47%; float: left; padding: 0 17px;}
+.testi .line2 p{ font-size:15px;line-height: 23px; padding:15px;    background: url("../images/border.png") no-repeat scroll left 15px bottom -21px rgba(0, 0, 0, 0); width:96%;font-family: raleway;}
+.testi .line2 span.lft{ background:url(../images/testi.png) no-repeat;  float: left;    height: 10px;    margin-top: 15px;    width: 22px;}
+.testi .line2 span.rght{ background:url(../images/testi2.png) no-repeat;  float: right;    height: 10px;    margin-top: -30px;    width: 42px;}
+
+.footer{ background:#646464; float:left; width:100%; padding:20px 0}
+.footer .lef{ float:left;}
+.footer .righ{ float:right;}
+.footer p{ color:#FFF; font-size:14px;font-family: raleway;}
+.footer p a{color:#FFF; font-size:14px;}
+.footer p a:hover{color:#5a9e3b;}
+.footer p sup{ color:#979797;}
+.footer .righ a{color:#FFF; font-size:14px; text-decoration:underline;}
+.footer .righ a:hover{color:#5a9e3b;}
+
+
+
+@media only screen and (max-width:1190px){
+	.container{max-width:960px;margin:0px auto;}
+	.banner .left {    float: left;    padding: 65px 0;    width: 69%;}
+	.banner .left img { max-width: 369px;left: 34%;top: 18%;}
+	.banner .left p {    font-size: 18px;    line-height: 33px;    padding-top: 28px;}
+	.banner .left span p {  padding-top: 53px;}
+	.banner .right {    float: right;    padding: 17px 0;    width: 31%;}
+    .sec1 .left {    background: none repeat scroll 0 0 #fff;    float: left;   padding: 65px 0 79px 21.4px;    width: 65%;}
+	.sec1 .right {    background: none repeat scroll 0 0 #fff;    float: right;padding: 160px 17px 28px 0;    width: 31%;  }
+	.form {    padding: 34px 0;}
+	.company1 > img {    max-width: 847px;    width: 99%;}
+	.company3 {left: 37%;}
+	.sec2 .left {    background: none repeat scroll 0 0 #fff;    float: left;  0px 0px 20px 21.4px;   width: 65%;}
+	.sec2 .right {    background: none repeat scroll 0 0 #fff;    float: right; padding: 0 17px 84px 0;    width: 31%;}
+	.form-side{ position:absolute;   margin: -88px 262px;}
+}
+
+@media only screen and (max-width:800px){
+	.container{max-width:780px;margin:0px auto;}
+	.banner {    background: rgba(0, 0, 0, 0) url("../images/banner-bg3.png") repeat scroll left 9px; height: auto;}
+	.banner .left {width: 100%;}
+	.banner .left img {    left: 53%;    max-width: 369px;    top: 28%;}
+	.banner .left p { padding-top: 35px;}
+	.banner .left span p {    padding-top: 53px;}
+	.banner .left h6 {padding-top: 67px;}
+	.banner .right {float: left;    text-align: center; width: 100%;background: #f4f4f4 none repeat scroll 0 0;}
+	.banner .right img {position: relative;}
+	.hdr .logo {    float: left;    text-align: center;    width: 100%;}
+	.hdr .call {    float: left;    text-align: center;    width: 100%; padding: 30px 0px;}
+	.hdr .call img {    margin-left: -167px;    position: absolute;}
+	.testi .line1 {width: 100%; padding:0}
+	.testi .line2 {width: 100%; padding:0}
+	.sec1 { background:none;}
+	.sec2 { background:none;}
+	.sec1 .left {width: 100%;padding: 65px 0 0;}
+	.sec1 .right {width: 100%;padding: 20px 0 0;}
+	.sec2 .left {width: 100%;padding:30px 0;}
+	.sec2 .right {width: 100%;padding: 20px 0 0;}
+	.left > img {    height: 76px;    margin: 0 auto;    max-width: 925px;    position: relative;    width: 100%;    z-index: 4;}
+	.call1 img {    margin-left: -168px;   position: absolute;}
+	.call1 { padding: 23px;    text-align: center;}
+	.policy {padding: 10px 0}
+	.company1 > img { width: 99%;}
+	.company2 > img {width: 97%;}
+	.company3 {left: 53%; width: 45%;}
+	.form {    padding:0;}
+	.testi .line1 {border-bottom: 1px solid #e3e3e3; border-right:none;}
+	.form-side{ display:none;}
+	.call1 p { background:none}
+}
+
+
+@media only screen and (max-width:768px){
+	.container{max-width:748px;margin:0px auto;}
+	.banner .left img {top: 34%; left:52%}
+}
+
+@media only screen and (max-width:480px){
+	.container{max-width:470px;margin:0px auto;}
+	br {    display: none;}
+	.sec1 .left .row1 { width:100%}
+	.sec1 .left .row2 { width:100%}
+	.company2 {width: 100%}
+	.banner .left {padding: 22px 0;}
+	.banner .left h6 { font-size:17px;}
+	.banner .left h1 { font-size:33px;}
+	.banner .left p { font-size:17px; line-height:29px;}
+	.company2 > img {    width: 100%;}
+	.company4 {width: 100%}
+	.sec2 .left {    padding: 30px 0 0;}
+	.company3 {    left: 0%;    width: 100%; float:none; position:relative;}
+	.footer .lef { float:none; text-align: center;}
+	.footer .righ {  float:none;padding: 20px 0 0;    text-align: center;}
+	.banner .left img { display:none;}
+	.test-img br {    display: inline;}
+	.test-img h1 {width: 58%;}
+	.test-img {width: 62%;}
+	.testi .line2 {    padding: 15px 0;}
+	.testi .line2 p {width: 91%;}
+	.hdr .call {    float: right;width: 87%;}
+}
+@media only screen and (max-width:360px){
+	.container{max-width:350px;margin:0px auto;}
+	.
+}
+
+@media only screen and (max-width:320px){
+	.container{max-width:310px;margin:0px auto;}
+	.banner .left h1 { font-size:30px;}
+	.banner .left span p {    padding-top: 37px;}
+}
